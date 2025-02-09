@@ -57,7 +57,7 @@ public class InvSortCommand implements CommandExecutor {
 		
 		if(p == null) p = (Player) sender;
 		
-		int start = 9;
+		int start = 14; // SGMC Fix
 		int end = 35;
 		
 		PlayerSetting setting = plugin.getPerPlayerSettings().get(p.getUniqueId().toString());
@@ -76,7 +76,7 @@ public class InvSortCommand implements CommandExecutor {
 				start=0;
 				end=8;
 			} else if(args[0].equalsIgnoreCase("inv")) {
-				start=9;
+				start=14; // SGMC Fix
 				end=35;
 			} else if(args[0].equalsIgnoreCase("on")) {
 				setting.enableInvSorting();
