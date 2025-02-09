@@ -58,7 +58,7 @@ public class ChestSortOrganizer {
     // it in the above mentioned color variable
     static final String[] woodNames = {"acacia", "birch", "jungle", "oak", "spruce", "dark_oak"};
     private static final int maxInventorySize = 54;
-    private static final int playerInvStartSlot = 9; // Inclusive
+    private static final int playerInvStartSlot = 14; // Inclusive - SGMC Fix
     private static final int playerInvEndSlot = 35; // Inclusive
     private static final String emptyPlaceholderString = "~";
     // We store a list of all Category objects
